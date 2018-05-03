@@ -1,0 +1,115 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="AdminMaster.master.cs" Inherits="Administrator_AdminMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Admin Dashboard</title>
+    <!--Custom Font-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- Includes CSS-->
+    <link href="../Shared/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../Shared/css/datepicker3.css" rel="stylesheet" />
+    <%--<link href="../Shared/css/UserCss.css" rel="stylesheet" />--%>
+    <link href="Resources/css/MyCss.css" rel="stylesheet">
+    <link href="../Shared/css/styles.css" rel="stylesheet" />
+    <link href="../Shared/css/font-awesome.min.css" rel="stylesheet" />
+
+    <!--Includes JavaScript-->
+    <script src="../Shared/js/jquery-3.3.1.min.js"></script>
+    <script src="../Shared/js/bootstrap.min.js"></script>
+    <script src="../Shared/js/bootstrap-datepicker.js"></script>
+    <script src="Resources/js/custom.js"></script>
+    <script src="Resources/js/MyScript1.js"></script>
+    <script src="../Shared/js/userScript.js"></script>
+  
+
+</head>
+
+
+<body>
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#sidebar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><span>Admin</span>&nbsp Panel</a>
+
+            </div>
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <div id="sidebar-collapse" class="col-sm-3 col-lg-2 sidebar">
+        <div class="profile-sidebar">
+            <div class="profile-userpic">
+                <img src="/Image/icon/user.png" class="img-responsive" alt="" align="center">
+            </div>
+            <div class="profile-usertitle">
+                <asp:Label ID="lblUsername" runat="server" Text="" CssClass="profile-usertitle-name"></asp:Label>
+                <%--<div class="profile-usertitle-name">Username</div>--%>
+                <%--<div class="profile-usertitle-status"><span class="indicator label-success"></span>Online</div>--%>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="divider"></div>
+        <!-- Search bar--> 
+
+        <!--<form role="search">
+			<div class="form-group">
+				<input type="text" class="form-control" placeholder="Search">
+			</div>
+		</form>-->
+        <ul class="nav menu" id="menu1">
+          
+            <li><a href="/Administrator/Default.aspx"  id="default" runat="server"> Dashboard</a></li>
+            <li><a href="/Administrator/AddUser.aspx"  id="addUser" runat="server">Add User</a></li>
+            <li><a href="/Administrator/AddStakeholder.aspx"  id="addStack" runat="server"> Add Stakeholder</a></li>
+            <li><a href="/Administrator/StakeholderDetails.aspx"  id="a1" runat="server">Stakeholder Details</a></li>
+            <li><a href="/Administrator/AddLocation.aspx" id="addLocation" runat="server"> Add Location</a></li>
+            <li><a href="/Administrator/LocationDetails.aspx" id="LocDetails" runat="server"> Location Details</a></li>
+            <li><a href="/User/Default.aspx" class="single" id="changePassword" runat="server">My Account</a></li>
+            <li><a href="/LogOut.aspx">Logout</a></li>
+            
+        </ul>
+    </div>
+    <!--/.sidebar-->
+
+    <div class="col-sm-9 col-sm-offset-3 col-lg-10 col-lg-offset-2 main">
+
+        <!--/.row-->
+        <form id="form1" runat="server" role="form">
+            <asp:ScriptManager runat="server" ID="AdminMasterScript"></asp:ScriptManager>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </form>
+    </div>
+
+
+
+
+
+    <%--<script>
+		window.onload = function () {
+	var chart1 = document.getElementById("line-chart").getContext("2d");
+	window.myLine = new Chart(chart1).Line(lineChartData, {
+	responsive: true,
+	scaleLineColor: "rgba(0,0,0,.2)",
+	scaleGridLineColor: "rgba(0,0,0,.05)",
+	scaleFontColor: "#c5c7cc"
+	});
+};
+	</script>--%>
+    <script type='text/javascript'>
+
+        </script>
+</body>
+</html>
