@@ -1,0 +1,68 @@
+.font-to-amitabold
+{
+	font-family: Amita-Bold;
+	
+}
+@font-face
+{
+font-family: "Amita-Bold";
+src:url('font/Amita-Bold.ttf') format('embedded-opentype');
+}
+.font-to-amitaregular
+{
+	font-family: Amita-Regular;
+
+}
+@font-face
+{
+font-family: "Amita-Regular";
+src:url('font/Amita-Regular.ttf') format('embedded-opentype');
+}
+
+.font-to-bungee
+{
+	font-family: BungeeInline-Regular;
+	
+}
+@font-face
+{
+font-family: "BungeeInline-Regular";
+src:url('font/BungeeInline-Regular.ttf') format('embedded-opentype');
+}
+.font-to-Itim-Regular
+{
+	font-family: Itim-Regular;
+	
+}
+@font-face
+{
+font-family: "Itim-Regular";
+src:url('font/Itim-Regular.ttf') format('embedded-opentype');
+}
+
+.font-to-Blockletter {
+    font-family: Blockletter;
+}
+
+@font-face {
+    font-family: "Blockletter";
+    src: url('font/Blockletter.otf') format('embedded-opentype');
+    
+}
+.font-to-Rajdhani {
+    font-family: Rajdhani-Regular;
+}
+
+@font-face {
+    font-family: "Rajdhani-Regular";
+    src: url('font/Rajdhani-Regular.ttf') format('embedded-opentype');
+    
+}
+.font-to-Russo {
+    font-family: RussoOne-Regular;
+}
+
+@font-face {
+    font-family: "RussoOne-Regular";
+    src: url('font/RussoOne-Regular.ttf') format('embedded-opentype');
+}

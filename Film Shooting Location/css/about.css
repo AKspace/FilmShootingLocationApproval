@@ -1,0 +1,90 @@
+.about-head {
+    text-align: center;
+    font-size: 80px;
+    background-color: #333334;
+    color: white;
+}
+.box-body
+{
+	background-color: #F5F5F5  ;
+	border-radius: 5px;
+
+}
+.download-list
+{
+    list-style-type:square;
+    background-color: #48535A  ;
+}
+.box-body2
+{
+	background-color:#FFF094    ;
+	border-radius: 5px;
+
+}
+.font-to-mina
+{
+	font-family: Mina-Regular;
+	font-size: 18px;
+}
+@font-face
+{
+font-family: "Mina-Regular";
+src:url('font/Mina-Regular.ttf') format('embedded-opentype');
+}
+.font-to-exo
+{
+	font-family: Exo2-Light;
+	font-size: 18px;
+}
+@font-face
+{
+font-family: "Exo2-Light";
+src:url('font/Exo2-Light.ttf') format('embedded-opentype');
+}
+.shooting-place-panel {
+    background-color: #333334;
+    color: white;
+    font-family: Segoe Print;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+.shooting-placeholder
+{
+	text-align: justify;
+	font-family: Exo2-Light;
+}
+.font-to-lobster
+{
+	font-family: IndieFlower;
+	font-size: 18px;
+}
+@font-face
+{
+font-family: "IndieFlower";
+src:url('font/IndieFlower.ttf') format('embedded-opentype');
+}
+.font-to-lobster
+{
+	font-family: Lobster-Regular;
+	font-size: 50px;
+}
+@font-face
+{
+font-family: "Lobster-Regular";
+src:url('font/Lobster-Regular.ttf') format('embedded-opentype');
+}
+
+
+.gradient {
+    height: 150px;
+    background: red; /* For browsers that do not support gradients */
+    background: linear-gradient(#474747, #000000 );
+}
+
+.gradient-footer {
+    background: red; /* For browsers that do not support gradients */
+    background: linear-gradient(#1F618D,#1A5276 );
+}
+
+
