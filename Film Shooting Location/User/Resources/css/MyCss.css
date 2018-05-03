@@ -1,0 +1,51 @@
+.emailCheck
+{
+    font-style: italic;
+}
+/*.loginBtn{
+    width:150px;
+    
+}
+.resetBtn{
+    
+}
+.alertForError
+{
+
+}
+*/
+.buttonStyle{
+    border-radius: 0px;
+    margin-left:15px;
+}
+
+/*------------------ forgot link  ----------------------------------------*/  
+.forgotLink:link {
+        color: red;
+    }
+    
+    /* visited link */
+    .forgotLink:visited {
+        color: green;
+    }
+    
+    /* mouse over link */
+    .forgotLink:hover {
+        color: hotpink;
+    }
+    
+    /* selected link */
+    .forgotLink:active {
+        color: blue;
+    }
+    .margin{
+        margin-top:50px;
+        font-size:16px;
+    }
+    .aligntext{
+        text-align:center;
+    }
+.aligntext
+{
+    text-align:center;
+}

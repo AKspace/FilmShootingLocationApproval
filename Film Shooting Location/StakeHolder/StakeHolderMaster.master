@@ -1,0 +1,101 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="StakeHolderMaster.master.cs" Inherits="StakeHolder_StakeHolderMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Stakeholder Dashboard</title>
+    <!--Custom Font-->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- Includes CSS-->
+    <link href="../Shared/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../Shared/css/datepicker3.css" rel="stylesheet" />
+    <link href="../Shared/css/UserCss.css" rel="stylesheet" />
+    <link href="Resources/css/MyCss.css" rel="stylesheet">
+    <link href="../Shared/css/styles.css" rel="stylesheet" />
+    <link href="../Shared/css/font-awesome.min.css" rel="stylesheet" />
+
+    <!--Includes JavaScript-->
+    <script src="../Shared/js/jquery-3.3.1.min.js"></script>
+    <script src="../Shared/js/bootstrap.min.js"></script>
+    <script src="../Shared/js/bootstrap-datepicker.js"></script>
+     <script src="Resources/js/custom.js"></script>
+    <script src="Resources/js/MyScript1.js"></script>
+    <script src="../Shared/js/userScript.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation" >
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#sidebar-collapse"><span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span></button>
+				<a class="navbar-brand" href="#"><span>Stakeholder</span>&nbspPanel</a>
+				
+			</div>
+		</div><!-- /.container-fluid -->
+	</nav>
+	<div id="sidebar-collapse" class="col-sm-3 col-lg-2 sidebar">
+		<div class="profile-sidebar">
+			<div class="profile-userpic">
+				<img src="/Image/icon/user.png" class="img-responsive" alt="" align="middle">
+			</div>
+			<div class="profile-usertitle">
+                <asp:Label ID="lblUsername" runat="server" Text="" Cssclass="profile-usertitle-name" ></asp:Label>
+				<%--<div class="profile-usertitle-name">Username</div>--%>
+				<%--<div class="profile-usertitle-status"><span class="indicator label-success"></span>Online</div>--%>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<div class="divider"></div>
+		<!-- Search bar-->
+
+		<!--<form role="search">
+			<div class="form-group">
+				<input type="text" class="form-control" placeholder="Search">
+			</div>
+		</form>-->
+		<ul class="nav menu">
+			<li class="active"><a href="/StakeHolder/Default.aspx"><em class="">&nbsp;</em> Dashboard</a></li>
+			<li><a href="/User/Default.aspx"><em class="">&nbsp;</em>My Account</a></li>
+			<%--<li><a href="/Administrator/AddStakeholder.aspx"><em class="">&nbsp;</em> Add Stakeholder</a></li>
+			<li><a href="/Administrator/AddLocation.aspx"><em class="">&nbsp;</em> Add Location</a></li>--%>
+			<li><a href="/Logout.aspx"><em class="">&nbsp;</em>Logout</a></li>
+			<%--<li class="parent "><a data-toggle="collapse" href="#sub-item-1">
+				<em class="">&nbsp;</em> Profile <span data-toggle="collapse" href="#sub-item-1" class="icon pull-right"><em class=""></em></span>
+				</a>
+				<ul class="children collapse" id="sub-item-1" style="text-decoration:none">
+					<li><a class="" href="/Administrator/ProfileUpdate.aspx">
+						<span class="">&nbsp;</span> Update Profile
+					</a></li>
+					<li><a class="" href="Changepassword.aspx">
+						<span class="">&nbsp;</span> Change Password
+					</a></li>
+					<li><a class="" href="#">
+						<span class="">&nbsp;</span> Logout
+					</a></li>
+				</ul>
+			</li>--%>
+			
+		</ul>
+	</div><!--/.sidebar-->
+		
+	<div class="col-sm-9 col-sm-offset-3 col-lg-10 col-lg-offset-2 main">
+    <form id="form1" runat="server">
+    
+         <asp:ScriptManager runat="server" ID="AdminMasterScript"></asp:ScriptManager>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    
+    </form>
+         </div>
+</body>
+</html>
