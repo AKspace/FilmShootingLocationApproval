@@ -1,0 +1,1 @@
+this directory contains the error log files
