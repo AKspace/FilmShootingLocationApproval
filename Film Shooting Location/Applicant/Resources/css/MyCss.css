@@ -1,0 +1,70 @@
+.emailCheck
+{
+    font-style: italic;
+}
+/*.loginBtn{
+    width:150px;
+    
+}
+.resetBtn{
+    
+}
+.alertForError
+{
+
+}
+*/
+.buttonStyle{
+    border-radius: 0px;
+    margin-left:15px;
+}
+
+/*------------------ forgot link  ----------------------------------------*/  
+.forgotLink:link {
+        color: red;
+    }
+    
+    /* visited link */
+    .forgotLink:visited {
+        color: green;
+    }
+    
+    /* mouse over link */
+    .forgotLink:hover {
+        color: hotpink;
+    }
+    
+    /* selected link */
+    .forgotLink:active {
+        color: blue;
+    }
+    .borderRadius{
+        border-radius:0px;
+        margin-left:0px;
+    }
+    .labelSet{
+
+        margin-left:0px;
+    }
+    .marginLeft{
+        margin-left:20 px;
+    }
+    tr td{
+        width:60px !important;
+    }
+    .textBtn{
+        font-weight:bold;
+    }
+    .aligntext{
+        text-align:center;
+        color:black;
+    }
+    .colorfont {
+        background-color: #85C1E9;
+    }
+    .fontuse{
+        font-size:40px;
+        margin-top:10px;
+    }
+
+    
