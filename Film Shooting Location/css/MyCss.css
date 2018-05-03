@@ -1,0 +1,57 @@
+.emailCheck
+{
+    font-style: italic;
+}
+/*.loginBtn{
+    width:150px;
+    
+}
+.resetBtn{
+    
+}
+.alertForError
+{
+
+}
+*/
+.buttonStyle{
+    border-radius: 0px;
+    margin-left:15px;
+}
+
+/*------------------ forgot link  ----------------------------------------*/  
+.forgotLink:link {
+        color: red;
+    }
+    
+    /* visited link */
+    .forgotLink:visited {
+        color: green;
+    }
+    
+    /* mouse over link */
+    .forgotLink:hover {
+        color: hotpink;
+    }
+    
+    /* selected link */
+    .forgotLink:active {
+        color: blue;
+    }
+    .balloon{
+        font-family:'Bookman Old Style';
+        font-size:18px;
+        color:darkblue;
+        z-index:9999 !important;
+    }
+    .buttoncp {
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
