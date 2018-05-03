@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Film Shooting Location", "Film Shooting Location", "{9336B1B8-B7E1-475D-AA77-740AF03414BE}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = "SAK"
+		SccAuxPath = "SAK"
+		SccLocalPath = "SAK"
+		SccProvider = "SAK"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/New folder"
+		Debug.AspNetCompiler.PhysicalPath = "Film Shooting Location\"
+		Debug.AspNetCompiler.TargetPath = "E:\New folder\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/New folder"
+		Release.AspNetCompiler.PhysicalPath = "Film Shooting Location\"
+		Release.AspNetCompiler.TargetPath = "E:\New folder\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "56901"
+		SlnRelativePath = "Film Shooting Location\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9336B1B8-B7E1-475D-AA77-740AF03414BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9336B1B8-B7E1-475D-AA77-740AF03414BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9FEF368A-001B-488F-81A8-A3D2BD5405D4}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://lizz:8080/tfs/smartindiahackthon
+		SccLocalPath0 = .
+		SccWebProject1 = true
+		SccProjectUniqueName1 = Film\u0020Shooting\u0020Location
+		SccProjectName1 = Film\u0020Shooting\u0020Location
+		SccLocalPath1 = Film\u0020Shooting\u0020Location
+		SccProjectEnlistmentChoice1 = 2
+	EndGlobalSection
+EndGlobal
